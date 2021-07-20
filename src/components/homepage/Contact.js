@@ -57,7 +57,10 @@ export default class ContactForm extends React.Component {
     return (
       <div className="mx-auto lg:w-8/12 text-center">
         <H2>Interested in collaborating on a project?</H2>
-        <StyledForm action="/thanks" onSubmit={(e) => this.handleSubmit(e)}>
+        <StyledForm
+          netlify-honeypot="bot-field"
+          onSubmit={(e) => this.handleSubmit(e)}
+        >
           <InputGroup>
             <Input
               id="full-name"
