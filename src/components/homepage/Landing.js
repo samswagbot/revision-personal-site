@@ -33,7 +33,7 @@ const Hero = () => {
         <Zoom>
           <img
             className="lg:w-full md:max-w-2xl mx-auto h-auto rounded-md col-span-1 col-start-1 lg:col-end-2"
-            src="/media/headshot.jpg"
+            src="static/images/headshot.jpg"
             alt="headshot"
           />
         </Zoom>
