@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import headshot from 'Assets/images/headshot.jpg';
 import { Bio, Contact, Anchor, Paragraph } from 'Components/components';
 import { Fade, Zoom } from 'react-reveal';
 import { LinkedinIcon } from 'Assets/svgs/svgs';
