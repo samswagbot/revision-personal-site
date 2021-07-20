@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import headshot from 'Assets/images/headshot.jpg';
 import { Bio, Contact, Anchor, Paragraph } from 'Components/components';
 import { Fade, Zoom } from 'react-reveal';
 import { LinkedinIcon } from 'Assets/svgs/svgs';
@@ -33,7 +34,7 @@ const Hero = () => {
         <Zoom>
           <img
             className="lg:w-full md:max-w-2xl mx-auto h-auto rounded-md col-span-1 col-start-1 lg:col-end-2"
-            src="static/images/headshot.jpg"
+            src={headshot}
             alt="headshot"
           />
         </Zoom>
