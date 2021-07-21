@@ -27,7 +27,6 @@ const StyledMenu = styled.ul`
   background-color: ${(p) => p.theme.colors.taxiYellow};
   margin-top: 0;
   padding: 15px;
-  opacity: 0.9;
 `;
 
 const StyledMenuCtn = styled.div`
