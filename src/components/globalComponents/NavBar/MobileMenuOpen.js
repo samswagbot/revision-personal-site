@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Rotate from 'react-reveal/Rotate';
@@ -35,6 +34,7 @@ const StyledMenuCtn = styled.div`
   position: sticky;
   overflow: auto;
   top: 54px;
+  z-index: 10;
 `;
 
 export default function MobileMenuOpen({ open }) {
