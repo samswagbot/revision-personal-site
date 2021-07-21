@@ -20,7 +20,7 @@ const StyledModalWindow = styled.div`
   margin: auto;
   padding: 20px;
   border-radius: 5px;
-  width: 80%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ const CloseButton = styled.span`
   font-size: ${(p) => p.theme.fontSizes.large};
   font-weight: ${(p) => p.theme.fontWeight.bold};
   height: 100%;
-  left: 31%;
+  left: 12px;
   bottom: 20px;
   position: relative;
   &:hover,
