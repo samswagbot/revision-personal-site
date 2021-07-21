@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
@@ -8,13 +7,11 @@ const StyledSpan = styled.span`
   align-self: center;
 `;
 
-const Span = ({ children, className }) => (
-  <StyledSpan className={className}>{children}</StyledSpan>
-);
+export default function Span({ children, className }) {
+  return <StyledSpan className={className}>{children}</StyledSpan>;
+}
 
 Span.propTypes = {
   children: PropTypes.string,
   className: PropTypes.any,
 };
-
-export default Span;

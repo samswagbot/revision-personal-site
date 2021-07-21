@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -20,16 +19,24 @@ const StyledAnchor = styled.a`
     }
   }
 `;
-const Anchor = ({ children, href, download, target, className }) => (
-  <StyledAnchor
-    href={href}
-    download={download}
-    target={target}
-    className={className}
-  >
-    {children}
-  </StyledAnchor>
-);
+export default function Anchor({
+  children,
+  href,
+  download,
+  target,
+  className,
+}) {
+  return (
+    <StyledAnchor
+      href={href}
+      download={download}
+      target={target}
+      className={className}
+    >
+      {children}
+    </StyledAnchor>
+  );
+}
 
 Anchor.propTypes = {
   children: PropTypes.any,
@@ -38,5 +45,3 @@ Anchor.propTypes = {
   target: PropTypes.string,
   className: PropTypes.any,
 };
-
-export default Anchor;
